@@ -3,7 +3,7 @@ import 'package:quize/model/question_model.dart';
 import 'package:quize/utils/color.dart';
 import 'package:quize/view/screen/quize_screen.dart';
 
-import '../../controller/question_controller.dart';
+import '../../controller/questions.dart';
 import '../widgets/next_button.dart';
 
 class ResultScreen extends StatelessWidget {
@@ -37,14 +37,14 @@ class ResultScreen extends StatelessWidget {
                   width: 250,
                   child: CircularProgressIndicator(
                     strokeWidth: 12,
-                    value: score/9,
+                    value: score/questions.length,
                     color: Colors.green,
                     backgroundColor: Colors.red,
                   ),
                 ),
                 Column(
                   children: [
-                    Text(score.toString() + '/9',style: TextStyle(fontSize: 80,color: AppColors.myWhite),),
+                    Text(score.toString() + '/${questions.length}',style: TextStyle(fontSize: 80,color: AppColors.myWhite),),
                     SizedBox(
                       height: 10,
                     ),

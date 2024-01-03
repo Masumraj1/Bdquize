@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/color.dart';
+import '../../../utils/color.dart';
 import 'right_and_rong_Icon.dart';
 
 class AnswerCard extends StatelessWidget {

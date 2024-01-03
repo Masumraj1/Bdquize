@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:quize/view/screen/result_screen.dart';
 
-import '../../controller/question_controller.dart';
-import '../widgets/answer_card.dart';
+import '../../controller/questions.dart';
+import 'inner_widgets/answer_card.dart';
 import '../widgets/next_button.dart';
 
 class QuizeScreen extends StatefulWidget {
@@ -100,8 +100,8 @@ class _QuizeScreenState extends State<QuizeScreen> {
                   label: 'Finish',
                 )
               : RactangularButton(
-                  onPresed: selectedAnswer != null ? goToNextQuestion : null,
-                  label: 'Next',
+                  onPresed: selectedAnswer != null ? goToNextQuestion : goToNextQuestion,
+                  label:  selectedAnswer != null ? "Next" : "Skip",
                 )
         ],
       ),

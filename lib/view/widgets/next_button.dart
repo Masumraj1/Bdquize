@@ -21,7 +21,7 @@ class RactangularButton extends StatelessWidget {
           height: 50,
           width: 200,
           child: Card(
-            color: onPresed != null ? Colors.orange : Colors.amber,
+            color: onPresed != null ? Colors.teal : Colors.amber,
             child: Center(
               child: Text(label,style: TextStyle(letterSpacing: 2,fontSize: 25,fontWeight: FontWeight.bold,color: Colors.black),),
             ),

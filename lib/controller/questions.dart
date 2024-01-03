@@ -89,4 +89,12 @@ List<QuestionModel> questions = [
       'খ) Compact Disc Read Only Memory',
     ],
   ),
+  QuestionModel(
+    question: '৯। CD-ROM এর পূর্ণ নাম কী?',
+    correctAnswerIndex: 1,
+    options: [
+      'ক) Complete Disc Read Only Memory',
+      'খ) Compact Disc Read Only Memory',
+    ],
+  ),
 ];
