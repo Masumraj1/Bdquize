@@ -1,16 +1,6 @@
 # quize
 
-"A new Flutter project."
+![Screenshot_13](https://github.com/Masumraj1/Bdquize/assets/141552007/4970bfbb-9a01-47fc-ba4d-e553f6fdb104)
+![WhatsApp Image 2024-01-04 at 03 46 47](https://github.com/Masumraj1/Bdquize/assets/141552007/7f045775-fd4f-4c71-9c29-7a5e4dcb438f)
+![WhatsApp Image 2024-01-04 at 03 46 47 (1)](https://github.com/Masumraj1/Bdquize/assets/141552007/d7fe6c76-34b1-4121-b889-fb1483f01c80)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
